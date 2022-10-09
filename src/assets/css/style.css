@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color:  rgb(22, 21, 21);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 21vh auto;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-inline-start: 24%;
+  margin-top: 0%;
+  font-size: 2.7em;
+}
+
+.relogio {
+  font-size: 5em;
+  margin-inline-start: 12%;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 10%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.iniciar {
+  background-color: rgb(44, 220, 44);
+}
+
+.iniciar:hover {
+  background-color: rgba(0, 238, 0, 0.896);
+}
+
+.pausar {
+  background-color: rgb(235, 216, 74);
+}
+
+.pausar:hover {
+  background-color: rgb(253, 228, 35);
+}
+
+.zerar {
+  background-color: rgb(240, 52, 52);
+}
+
+.zerar:hover {
+  background-color: rgb(241, 22, 22);
+}
+
+.pausado {
+  color: red;
+}
